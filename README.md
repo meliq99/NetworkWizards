@@ -92,7 +92,7 @@ To use this repository, follow these steps:
 
 3. **Run the training script**:
     ```bash
-    python train_model.py
+    python BinaryClassifier.ipynb
     ```
 
 4. **Run the NIDS script**:
