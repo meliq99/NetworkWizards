@@ -6,7 +6,7 @@ This repository contains the code and resources for a Network Intrusion Detectio
 
 ## Dataset
 
-The UNSW-NB15 dataset was used for exploratory data analysis (EDA), training, and testing the model. The dataset includes a wide range of network traffic data, both normal and malicious. The dataset can be found [here](https://research.unsw.edu.au/projects/unsw-nb15-dataset).
+The UNSW-NB15 dataset was used for exploratory data analysis (EDA), training, and testing the model. The dataset includes a wide range of network traffic data, both normal and malicious. You can be found the  dataset [here](https://research.unsw.edu.au/projects/unsw-nb15-dataset).
 
 ### Files:
 - **UNSW_NB15_training-set.csv**: The training dataset containing 175341 network flow records.
