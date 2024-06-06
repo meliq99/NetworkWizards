@@ -30,6 +30,21 @@ Both the training and testing files contained 45 features. For the purpose of th
 - 'trans_depth'
 - 'response_body_len'
 - 'label'
+## Model Architecture Definition
+
+### Input Layer:
+
+The input layer receives the 13 selected features from the preprocessed dataset.
+### Hidden Layers:
+
+The network consists of multiple fully connected (dense) hidden layers.
+Each hidden layer is followed by a Batch Normalization layer to stabilize and accelerate the training process.
+Rectified Linear Unit (ReLU) activation functions are used to introduce non-linearity, allowing the network to learn complex patterns in the data.
+
+### Output Layer:
+
+The output layer consists of a single neuron with a Sigmoid activation function.
+This setup is suitable for binary classification, as it outputs a probability value between 0 and 1, indicating whether the network traffic is normal or an attack.
 
 ## Model Training
 
